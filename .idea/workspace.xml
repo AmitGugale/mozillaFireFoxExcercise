@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5bd69f9e-4e4d-4804-a9e8-38ef852580b8" name="Default Changelist" comment="Commit 5:&#10;Adding First Modular Test - For Google Search Functionality">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="5bd69f9e-4e4d-4804-a9e8-38ef852580b8" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -12,11 +10,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/TestScripts/google_searchResultPage_Test.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="85">
               <caret line="5" column="5" selection-start-line="5" selection-start-column="5" selection-end-line="5" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/TestScripts/mozilla_mainPage_Test.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" column="5" selection-start-line="2" selection-start-column="5" selection-end-line="2" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -46,6 +53,7 @@
         <option value="$PROJECT_DIR$/TestScripts/End2End_Google_SearchPageTest.py" />
         <option value="$PROJECT_DIR$/TestScripts/google_searchPage_Test.py" />
         <option value="$PROJECT_DIR$/TestScripts/google_searchResultPage_Test.py" />
+        <option value="$PROJECT_DIR$/TestScripts/mozilla_mainPage_Test.py" />
       </list>
     </option>
   </component>
@@ -124,7 +132,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python tests.Unittests in google_searchResultPage_Test.py">
+  <component name="RunManager" selected="Python tests.Unittests in mozilla_mainPage_Test.py">
     <configuration name="googleSearchPage" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="mozillaFireFoxExcercise" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -174,8 +182,23 @@
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
+    <configuration name="Unittests in mozilla_mainPage_Test.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="mozillaFireFoxExcercise" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/TestScripts" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/TestScripts/mozilla_mainPage_Test.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.Unittests in mozilla_mainPage_Test.py" />
         <item itemvalue="Python tests.Unittests in google_searchResultPage_Test.py" />
         <item itemvalue="Python tests.Unittests in End2End_Google_SearchPageTest.py" />
         <item itemvalue="Python.googleSearchPage" />
@@ -228,12 +251,22 @@
       <option name="project" value="LOCAL" />
       <updated>1558328174871</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Commit 6:&#10;Adding 2nd Modular Test - For Google Search Result Page Functionality">
+      <created>1558332522788</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1558332522788</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TestHistory">
     <history-entry file="Unittests_in_End2End_Google_SearchPageTest_py - 2019.05.20 at 09h 58m 48s.xml">
       <configuration name="Unittests in End2End_Google_SearchPageTest.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_google_searchResultPage_Test_py - 2019.05.20 at 11h 38m 00s.xml">
+      <configuration name="Unittests in google_searchResultPage_Test.py" configurationId="tests" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -265,7 +298,8 @@
     <MESSAGE value="Commit 3:&#10;First Iteration of Complete E2E Test. This iteration of E2E test utilises the pages of google search and google search results.&#10;Also added is the Test Variables, a class which holds all the static data." />
     <MESSAGE value="Commit 4:&#10;Second Iteration of Complete E2E Test. This iteration of E2E test utilises the mozilla pages and completes functionality." />
     <MESSAGE value="Commit 5:&#10;Adding First Modular Test - For Google Search Functionality" />
-    <option name="LAST_COMMIT_MESSAGE" value="Commit 5:&#10;Adding First Modular Test - For Google Search Functionality" />
+    <MESSAGE value="Commit 6:&#10;Adding 2nd Modular Test - For Google Search Result Page Functionality" />
+    <option name="LAST_COMMIT_MESSAGE" value="Commit 6:&#10;Adding 2nd Modular Test - For Google Search Result Page Functionality" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/../anandPythonSeleniumExcercise/fireFoxAssignment/PageObjects/Pages/googleSearchPage.py">
@@ -364,6 +398,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
           <caret line="5" column="5" selection-start-line="5" selection-start-column="5" selection-end-line="5" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TestScripts/mozilla_mainPage_Test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="5" selection-start-line="2" selection-start-column="5" selection-end-line="2" selection-end-column="5" />
         </state>
       </provider>
     </entry>
