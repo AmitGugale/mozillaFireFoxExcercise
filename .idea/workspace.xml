@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5bd69f9e-4e4d-4804-a9e8-38ef852580b8" name="Default Changelist" comment="" />
+    <list default="true" id="5bd69f9e-4e4d-4804-a9e8-38ef852580b8" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestScripts/End2End_Google_SearchPageTest.py" beforeDir="false" afterPath="$PROJECT_DIR$/TestScripts/End2End_Google_SearchPageTest.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestScripts/google_searchPage_Test.py" beforeDir="false" afterPath="$PROJECT_DIR$/TestScripts/google_searchPage_Test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestScripts/google_searchResultPage_Test.py" beforeDir="false" afterPath="$PROJECT_DIR$/TestScripts/google_searchResultPage_Test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestScripts/mozilla_languagesPage_Test.py" beforeDir="false" afterPath="$PROJECT_DIR$/TestScripts/mozilla_languagesPage_Test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestScripts/mozilla_mainPage_Test.py" beforeDir="false" afterPath="$PROJECT_DIR$/TestScripts/mozilla_mainPage_Test.py" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -9,18 +16,9 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+    <leaf>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/TestScripts/google_searchResultPage_Test.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="5" selection-start-line="5" selection-start-column="5" selection-end-line="5" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/TestScripts/mozilla_mainPage_Test.py">
+        <entry file="file://$PROJECT_DIR$/TestBase/testBase.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="34">
               <caret line="2" column="5" selection-start-line="2" selection-start-column="5" selection-end-line="2" selection-end-column="5" />
@@ -28,8 +26,44 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/TestScripts/End2End_Google_SearchPageTest.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="5" column="5" lean-forward="true" selection-start-line="5" selection-start-column="5" selection-end-line="5" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/TestScripts/google_searchPage_Test.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="51">
+              <caret line="3" column="5" selection-start-line="3" selection-start-column="5" selection-end-line="3" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/TestScripts/google_searchResultPage_Test.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="4" column="5" selection-start-line="4" selection-start-column="5" selection-end-line="4" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/TestScripts/mozilla_languagesPage_Test.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-68">
+              <caret line="2" column="5" selection-start-line="2" selection-start-column="5" selection-end-line="2" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/TestScripts/mozilla_mainPage_Test.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="34">
               <caret line="2" column="5" selection-start-line="2" selection-start-column="5" selection-end-line="2" selection-end-column="5" />
@@ -48,6 +82,11 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -59,11 +98,12 @@
         <option value="$PROJECT_DIR$/PageObjects/Pages/mozillaFirefoxLanguagesPage.py" />
         <option value="$PROJECT_DIR$/PageObjects/Pages/mozillaFirefoxMainPage.py" />
         <option value="$PROJECT_DIR$/TestVariables/test_Variables.py" />
+        <option value="$PROJECT_DIR$/TestBase/testBase.py" />
         <option value="$PROJECT_DIR$/TestScripts/End2End_Google_SearchPageTest.py" />
         <option value="$PROJECT_DIR$/TestScripts/google_searchPage_Test.py" />
         <option value="$PROJECT_DIR$/TestScripts/google_searchResultPage_Test.py" />
-        <option value="$PROJECT_DIR$/TestScripts/mozilla_mainPage_Test.py" />
         <option value="$PROJECT_DIR$/TestScripts/mozilla_languagesPage_Test.py" />
+        <option value="$PROJECT_DIR$/TestScripts/mozilla_mainPage_Test.py" />
       </list>
     </option>
   </component>
@@ -91,7 +131,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -107,6 +146,11 @@
             <path>
               <item name="mozillaFireFoxExcercise" type="b2602c69:ProjectViewProjectNode" />
               <item name="mozillaFireFoxExcercise" type="462c0819:PsiDirectoryNode" />
+              <item name="TestBase" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mozillaFireFoxExcercise" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mozillaFireFoxExcercise" type="462c0819:PsiDirectoryNode" />
               <item name="TestScripts" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -118,6 +162,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -290,7 +335,14 @@
       <option name="project" value="LOCAL" />
       <updated>1558332754467</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Commit 8:&#10;Adding 4th Modular Test - For Mozilla Language Page Functionality">
+      <created>1558332930565</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1558332930565</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -303,6 +355,9 @@
     <history-entry file="Unittests_in_mozilla_mainPage_Test_py - 2019.05.20 at 11h 40m 52s.xml">
       <configuration name="Unittests in mozilla_mainPage_Test.py" configurationId="tests" />
     </history-entry>
+    <history-entry file="Unittests_in_mozilla_languagesPage_Test_py - 2019.05.20 at 11h 44m 46s.xml">
+      <configuration name="Unittests in mozilla_languagesPage_Test.py" configurationId="tests" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1015" extended-state="6" />
@@ -313,12 +368,12 @@
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32993197" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32993197" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Version Control" order="7" visible="true" weight="0.32993197" />
       <window_info anchor="bottom" id="Terminal" order="8" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Python Console" order="10" />
@@ -326,6 +381,46 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
     </layout>
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list />
+          </value>
+        </entry>
+        <entry key="User">
+          <value>
+            <list />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial Commit.&#10;Contains libraries, Page Object of Google Search Page&#10;and Locators file (repository of all elements used in this program)" />
@@ -335,7 +430,8 @@
     <MESSAGE value="Commit 5:&#10;Adding First Modular Test - For Google Search Functionality" />
     <MESSAGE value="Commit 6:&#10;Adding 2nd Modular Test - For Google Search Result Page Functionality" />
     <MESSAGE value="Commit 7:&#10;Adding 3rd Modular Test - For Mozilla Main Page Functionality" />
-    <option name="LAST_COMMIT_MESSAGE" value="Commit 7:&#10;Adding 3rd Modular Test - For Mozilla Main Page Functionality" />
+    <MESSAGE value="Commit 8:&#10;Adding 4th Modular Test - For Mozilla Language Page Functionality" />
+    <option name="LAST_COMMIT_MESSAGE" value="Commit 8:&#10;Adding 4th Modular Test - For Mozilla Language Page Functionality" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/../anandPythonSeleniumExcercise/fireFoxAssignment/PageObjects/Pages/googleSearchPage.py">
@@ -367,16 +463,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
           <caret line="18" selection-start-line="18" selection-end-line="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TestScripts/End2End_Google_SearchPageTest.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1326">
-          <caret line="78" column="16" lean-forward="true" selection-start-line="78" selection-start-column="16" selection-end-line="78" selection-end-column="16" />
-          <folding>
-            <element signature="e#0#30#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -420,31 +506,42 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/TestScripts/google_searchPage_Test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
-          <folding>
-            <element signature="e#0#30#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TestScripts/google_searchResultPage_Test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="5" selection-start-line="5" selection-start-column="5" selection-end-line="5" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TestScripts/mozilla_mainPage_Test.py">
+    <entry file="file://$PROJECT_DIR$/TestBase/testBase.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="2" column="5" selection-start-line="2" selection-start-column="5" selection-end-line="2" selection-end-column="5" />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/TestScripts/End2End_Google_SearchPageTest.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="5" lean-forward="true" selection-start-line="5" selection-start-column="5" selection-end-line="5" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TestScripts/google_searchPage_Test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="5" selection-start-line="3" selection-start-column="5" selection-end-line="3" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TestScripts/google_searchResultPage_Test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="5" selection-start-line="4" selection-start-column="5" selection-end-line="4" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/TestScripts/mozilla_languagesPage_Test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-68">
+          <caret line="2" column="5" selection-start-line="2" selection-start-column="5" selection-end-line="2" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TestScripts/mozilla_mainPage_Test.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="2" column="5" selection-start-line="2" selection-start-column="5" selection-end-line="2" selection-end-column="5" />

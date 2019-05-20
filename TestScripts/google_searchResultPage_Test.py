@@ -1,27 +1,22 @@
-from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
-
 from PageObjects.Pages.googleSearchResultPage import googleSearchResultPage
 from TestVariables.test_Variables import test_variables
 from PageObjects.Locators import Locators
-
+from TestBase.testBase import testBase
 import unittest
 
+# This Test Focuses on the google search results and confirms whether results for "mozilla firefox" are displayed.
+# The test then clicks the link for mozilla firefox main page and ensures that the page has come up.
 
-class google_Search_Result_Page_Test(unittest.TestCase):
 
-    @classmethod
-    def setUpClass(cls):
-        cls.driver = webdriver.Chrome(test_variables.chromedriver_location)
-        cls.driver.implicitly_wait(20)
-        cls.driver.maximize_window()
+class google_Search_Result_Page_Test(testBase):
 
     def test_google_search_page(self):
         driver = self.driver
-        driver.get(test_variables.google_search_link)
+        self.driver.get(test_variables.google_search_link)
         driver.set_page_load_timeout(30)
         driver.find_element_by_name(Locators.search_textbox).send_keys(test_variables.search_result_to_be_chosen)
-        driver.find_element_by_name(Locators.search_textbox).send_keys((Keys.ENTER))
+        driver.find_element_by_name(Locators.search_textbox).send_keys(Keys.ENTER)
         search_result = googleSearchResultPage(driver)
         retrieve_link = ''
         search_result_expected_title = test_variables.search_result_to_be_chosen
@@ -40,13 +35,6 @@ class google_Search_Result_Page_Test(unittest.TestCase):
             driver.quit()
             driver.close()
 
-    @classmethod
-    def tearDownClass(cls):
-        cls.driver.close()
-        cls.driver.quit()
-
 
 if __name__ == '__main__':
     unittest.main()
-
-

@@ -1,19 +1,18 @@
-from selenium import webdriver
 from PageObjects.Pages.googleSearchPage import googleSearchPage
 from PageObjects.Pages.googleSearchResultPage import googleSearchResultPage
-from PageObjects.Pages.mozillaFirefoxLanguagesPage import mozilla_Firefox_Languages_Page
 from PageObjects.Pages.mozillaFirefoxMainPage import mozilla_Firefox_Main_Page
+from PageObjects.Pages.mozillaFirefoxLanguagesPage import mozilla_Firefox_Languages_Page
 from TestVariables.test_Variables import test_variables
+from TestBase.testBase import testBase
 import unittest
 
+# This Test Focuses on the testing the below End to End scenario
+# OPen Chrome Browser, navigate to google search, key in "mozilla", select "mozilla firefox" from auto-populated
+# suggestions, click the first link of the results, click on download in other languages
+# and retrieve the complete list of languages
 
-class google_SearchPageTest(unittest.TestCase):
 
-    @classmethod
-    def setUpClass(cls):
-        cls.driver = webdriver.Chrome(test_variables.chromedriver_location)
-        cls.driver.implicitly_wait(10)
-        cls.driver.maximize_window()
+class google_SearchPageTest(testBase):
 
     def test_google_search_page(self):
         driver = self.driver
@@ -76,14 +75,6 @@ class google_SearchPageTest(unittest.TestCase):
             driver.quit()
             driver.close()
 
-    @classmethod
-    def tearDownClass(cls):
-        cls.driver.close()
-        cls.driver.quit()
-        print("Test Completed")
-
 
 if __name__ == '__main__':
     unittest.main()
-
-

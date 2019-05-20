@@ -1,20 +1,17 @@
-from selenium import webdriver
 from PageObjects.Pages.googleSearchPage import googleSearchPage
 from TestVariables.test_Variables import test_variables
 import unittest
+from TestBase.testBase import testBase
+
+# This Test Focuses on the google search page, confirms the presence of search input box,
+# enters the text "mozilla", selects "mozilla firefox" from the auto-populated suggestions and clicks it.
 
 
-class test_Google_SearchPage(unittest.TestCase):
-
-    @classmethod
-    def setUpClass(cls):
-        cls.driver = webdriver.Chrome(test_variables.chromedriver_location)
-        cls.driver.implicitly_wait(20)
-        cls.driver.maximize_window()
+class test_Google_SearchPage(testBase):
 
     def test_Google_SearchPage(self):
         driver = self.driver
-        driver.get(test_variables.google_search_link)
+        self.driver.get(test_variables.google_search_link)
         driver.set_page_load_timeout(30)
         search_page_expected_title = test_variables.google_search_page_title
         retrieve_result = ''
@@ -32,12 +29,8 @@ class test_Google_SearchPage(unittest.TestCase):
         if retrieve_result:
             print(f'Mozilla Firefox searched and results are displayed')
 
-    @classmethod
-    def tearDownClass(cls):
-        cls.driver.close()
-        cls.driver.quit()
-        print("Test Completed")
-
 
 if __name__ == '__main__':
     unittest.main()
+
+
