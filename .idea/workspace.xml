@@ -19,8 +19,17 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/TestScripts/mozilla_mainPage_Test.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" column="5" selection-start-line="2" selection-start-column="5" selection-end-line="2" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/TestScripts/mozilla_languagesPage_Test.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="34">
               <caret line="2" column="5" selection-start-line="2" selection-start-column="5" selection-end-line="2" selection-end-column="5" />
@@ -54,6 +63,7 @@
         <option value="$PROJECT_DIR$/TestScripts/google_searchPage_Test.py" />
         <option value="$PROJECT_DIR$/TestScripts/google_searchResultPage_Test.py" />
         <option value="$PROJECT_DIR$/TestScripts/mozilla_mainPage_Test.py" />
+        <option value="$PROJECT_DIR$/TestScripts/mozilla_languagesPage_Test.py" />
       </list>
     </option>
   </component>
@@ -132,7 +142,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python tests.Unittests in mozilla_mainPage_Test.py">
+  <component name="RunManager" selected="Python tests.Unittests in mozilla_languagesPage_Test.py">
     <configuration name="googleSearchPage" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="mozillaFireFoxExcercise" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -182,6 +192,20 @@
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
+    <configuration name="Unittests in mozilla_languagesPage_Test.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="mozillaFireFoxExcercise" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/TestScripts" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/TestScripts/mozilla_languagesPage_Test.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
     <configuration name="Unittests in mozilla_mainPage_Test.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="mozillaFireFoxExcercise" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -198,6 +222,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.Unittests in mozilla_languagesPage_Test.py" />
         <item itemvalue="Python tests.Unittests in mozilla_mainPage_Test.py" />
         <item itemvalue="Python tests.Unittests in google_searchResultPage_Test.py" />
         <item itemvalue="Python tests.Unittests in End2End_Google_SearchPageTest.py" />
@@ -258,7 +283,14 @@
       <option name="project" value="LOCAL" />
       <updated>1558332522788</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Commit 7:&#10;Adding 3rd Modular Test - For Mozilla Main Page Functionality">
+      <created>1558332754467</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1558332754467</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -267,6 +299,9 @@
     </history-entry>
     <history-entry file="Unittests_in_google_searchResultPage_Test_py - 2019.05.20 at 11h 38m 00s.xml">
       <configuration name="Unittests in google_searchResultPage_Test.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_mozilla_mainPage_Test_py - 2019.05.20 at 11h 40m 52s.xml">
+      <configuration name="Unittests in mozilla_mainPage_Test.py" configurationId="tests" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -299,7 +334,8 @@
     <MESSAGE value="Commit 4:&#10;Second Iteration of Complete E2E Test. This iteration of E2E test utilises the mozilla pages and completes functionality." />
     <MESSAGE value="Commit 5:&#10;Adding First Modular Test - For Google Search Functionality" />
     <MESSAGE value="Commit 6:&#10;Adding 2nd Modular Test - For Google Search Result Page Functionality" />
-    <option name="LAST_COMMIT_MESSAGE" value="Commit 6:&#10;Adding 2nd Modular Test - For Google Search Result Page Functionality" />
+    <MESSAGE value="Commit 7:&#10;Adding 3rd Modular Test - For Mozilla Main Page Functionality" />
+    <option name="LAST_COMMIT_MESSAGE" value="Commit 7:&#10;Adding 3rd Modular Test - For Mozilla Main Page Functionality" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/../anandPythonSeleniumExcercise/fireFoxAssignment/PageObjects/Pages/googleSearchPage.py">
@@ -402,6 +438,13 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/TestScripts/mozilla_mainPage_Test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="5" selection-start-line="2" selection-start-column="5" selection-end-line="2" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TestScripts/mozilla_languagesPage_Test.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="2" column="5" selection-start-line="2" selection-start-column="5" selection-end-line="2" selection-end-column="5" />
