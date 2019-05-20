@@ -1,9 +1,10 @@
 from selenium import webdriver
 from PageObjects.Pages.googleSearchPage import googleSearchPage
 from PageObjects.Pages.googleSearchResultPage import googleSearchResultPage
+from PageObjects.Pages.mozillaFirefoxLanguagesPage import mozilla_Firefox_Languages_Page
+from PageObjects.Pages.mozillaFirefoxMainPage import mozilla_Firefox_Main_Page
 from TestVariables.test_Variables import test_variables
 import unittest
-
 
 
 class google_SearchPageTest(unittest.TestCase):
@@ -48,6 +49,30 @@ class google_SearchPageTest(unittest.TestCase):
             print(f'The Required Link Has Been Clicked')
         else:
             print("Required Link Not Available to be Clicked. Exiting the test")
+            driver.quit()
+            driver.close()
+
+        mozilla_main = mozilla_Firefox_Main_Page(driver)
+        if mozilla_main.get_mozilla_main_page_logo().is_displayed():
+            mozilla_main.access_mozilla_all_lang_link()
+            print("Mozilla - Download in Other Languages Link is Clicked")
+        else:
+            print("Mozilla - Download in Other Languages Link Unavailable. Exiting the test")
+            driver.quit()
+            driver.close()
+
+        mozilla_lang = mozilla_Firefox_Languages_Page(driver)
+        lang_output = ''
+        if mozilla_lang.get_mozilla_language_page_logo().is_displayed():
+            lang_output = mozilla_lang.get_mozilla_language_list()
+            print("List of Languages From The Mozilla Download Page")
+            print("************************************************")
+            for lang in lang_output:
+                print(f'{lang}\n')
+        if len(lang_output) > 0:
+            print("List of Languages From The Mozilla Download Page Successfully Made Available")
+        else:
+            print("Unable to Retrieve List. Exiting Test")
             driver.quit()
             driver.close()
 

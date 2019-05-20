@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5bd69f9e-4e4d-4804-a9e8-38ef852580b8" name="Default Changelist" comment="" />
+    <list default="true" id="5bd69f9e-4e4d-4804-a9e8-38ef852580b8" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestScripts/End2End_Google_SearchPageTest.py" beforeDir="false" afterPath="$PROJECT_DIR$/TestScripts/End2End_Google_SearchPageTest.py" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -13,7 +16,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/PageObjects/Pages/googleSearchPage.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
+            <state relative-caret-position="-647">
               <caret line="15" selection-start-line="15" selection-end-line="15" />
               <folding>
                 <element signature="e#0#55#0" expanded="true" />
@@ -52,8 +55,11 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/TestScripts/End2End_Google_SearchPageTest.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="75" selection-start-line="2" selection-start-column="75" selection-end-line="2" selection-end-column="75" />
+            <state relative-caret-position="-119">
+              <caret line="53" column="12" selection-start-line="53" selection-start-column="12" selection-end-line="53" selection-end-column="12" />
+              <folding>
+                <element signature="e#0#30#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -236,7 +242,14 @@
       <option name="project" value="LOCAL" />
       <updated>1558324032218</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Commit 3:&#10;First Iteration of Complete E2E Test. This iteration of E2E test utilises the pages of google search and google search results.&#10;Also added is the Test Variables, a class which holds all the static data.">
+      <created>1558326873464</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1558326873464</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -248,12 +261,12 @@
     <frame x="-8" y="-8" width="1936" height="1015" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24973656" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24973656" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32993197" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32993197" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -270,7 +283,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial Commit.&#10;Contains libraries, Page Object of Google Search Page&#10;and Locators file (repository of all elements used in this program)" />
     <MESSAGE value="Commit 2:&#10;Added Page Object for Google Search Results Page, Mozilla Firefox Main Page and Mozilla Firefox Download Language Page" />
-    <option name="LAST_COMMIT_MESSAGE" value="Commit 2:&#10;Added Page Object for Google Search Results Page, Mozilla Firefox Main Page and Mozilla Firefox Download Language Page" />
+    <MESSAGE value="Commit 3:&#10;First Iteration of Complete E2E Test. This iteration of E2E test utilises the pages of google search and google search results.&#10;Also added is the Test Variables, a class which holds all the static data." />
+    <option name="LAST_COMMIT_MESSAGE" value="Commit 3:&#10;First Iteration of Complete E2E Test. This iteration of E2E test utilises the pages of google search and google search results.&#10;Also added is the Test Variables, a class which holds all the static data." />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/../anandPythonSeleniumExcercise/fireFoxAssignment/PageObjects/Pages/googleSearchPage.py">
@@ -294,16 +308,6 @@
         <state>
           <folding>
             <element signature="e#0#59#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PageObjects/Pages/googleSearchPage.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" selection-start-line="15" selection-end-line="15" />
-          <folding>
-            <element signature="e#0#55#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -336,10 +340,23 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/PageObjects/Pages/googleSearchPage.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-647">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+          <folding>
+            <element signature="e#0#55#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/TestScripts/End2End_Google_SearchPageTest.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="75" selection-start-line="2" selection-start-column="75" selection-end-line="2" selection-end-column="75" />
+        <state relative-caret-position="-119">
+          <caret line="53" column="12" selection-start-line="53" selection-start-column="12" selection-end-line="53" selection-end-column="12" />
+          <folding>
+            <element signature="e#0#30#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
