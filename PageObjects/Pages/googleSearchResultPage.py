@@ -5,14 +5,21 @@ from selenium.webdriver.common.by import By
 from selenium.common.exceptions import TimeoutException
 from selenium.common.exceptions import StaleElementReferenceException
 
+# Google Search Result Page Object
 
 class googleSearchResultPage():
+
+    # Initialises Google Search Results Page and identifies required elements
     def __init__(self, driver):
         self.driver = driver
         self.search_results_link_set = Locators.search_result_result_links
 
+    # Method to retrieve title of page the driver has opened
     def get_search_result_page_title(self):
         return self.driver.title
+
+    # Method to click the desired link among the various links returned in the result.
+    # The criteria for selecting link is the text displayed
 
     def google_select_desired_link(self, link_search_text):
         link_result_found = True

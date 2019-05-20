@@ -4,12 +4,19 @@ from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.common.by import By
 from selenium.common.exceptions import TimeoutException, StaleElementReferenceException
 
+# Mozilla All Languages Page Object
+
 
 class mozilla_Firefox_Languages_Page():
+
+    # Initialises Mozilla Language Page and identifies required elements
+
     def __init__(self, driver):
         self.driver = driver
         self.mozilla_languages_logo = Locators.all_languages_logo
         self.mozilla_language_table = Locators.language_table
+
+    # Method which returns the logo element of Mozilla Lamguages page.
 
     def get_mozilla_language_page_logo(self):
         try:
@@ -20,6 +27,9 @@ class mozilla_Firefox_Languages_Page():
         except TimeoutException:
             print("Mozilla Languages Page Logo Has Not Loaded")
         return self.driver.find_element_by_xpath(Locators.all_languages_logo)
+
+    # Method which accesses the table in which the languages are displayed and
+    # retrieves the languages and lists them as output.
 
     def get_mozilla_language_list(self):
         try:
@@ -49,4 +59,3 @@ class mozilla_Firefox_Languages_Page():
                 col_text = row.text
             results.append(col_text)
         return results
-

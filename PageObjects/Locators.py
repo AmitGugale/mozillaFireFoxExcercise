@@ -1,3 +1,7 @@
+# The purpose of this class is to collate all required web element details in one place.
+# These will be used in the tests and page objects
+
+
 class Locators(object):
 
     # Google Search Page Locators

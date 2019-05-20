@@ -6,16 +6,22 @@ import time
 from PageObjects.Locators import Locators
 from selenium.common.exceptions import StaleElementReferenceException
 
+# Google Search Page Object
+
 
 class googleSearchPage():
-
+    # Initialises Google Search Page and identifies required elements
     def __init__(self, driver):
         self.driver = driver
 
         self.search_textbox = Locators.search_textbox
 
+    # Method to retrieve title of page the driver has opened
     def get_page_title(self):
         return self.driver.title
+
+    # Method which enters a text on the search input, selects a desired text
+    # from the auto-populated suggestions and clicks it
 
     def google_search_results_access(self, search_input_text, search_select_text):
         result_found = False
@@ -76,4 +82,3 @@ class googleSearchPage():
                 break
 
         return result_found
-
