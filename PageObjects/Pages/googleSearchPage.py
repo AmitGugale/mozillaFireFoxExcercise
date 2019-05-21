@@ -44,7 +44,7 @@ class googleSearchPage():
             self.driver.find_element_by_name(self.search_textbox).clear()
             self.driver.find_element_by_name(self.search_textbox).send_keys(search_input_text)
         try:
-            WebDriverWait(self.driver, 20).until(
+            WebDriverWait(self.driver, 30).until(
                 EC.presence_of_element_located(
                     (By.XPATH, Locators.search_result_set))
             )
