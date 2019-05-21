@@ -24,7 +24,7 @@ class googleSearchResultPage():
     def google_select_desired_link(self, link_search_text):
         link_result_found = True
         try:
-            WebDriverWait(self.driver, 10).until(
+            WebDriverWait(self.driver, 20).until(
                 EC.presence_of_element_located(
                     (By.XPATH, Locators.search_result_result_links))
             )
