@@ -13,7 +13,7 @@ class google_Search_Result_Page_Test(testBase):
 
     def test_google_search_page(self):
         driver = self.driver
-        self.driver.get(test_variables.google_search_link)
+        driver.get(test_variables.google_search_link)
         driver.set_page_load_timeout(30)
         driver.find_element_by_name(Locators.search_textbox).send_keys(test_variables.search_result_to_be_chosen)
         driver.find_element_by_name(Locators.search_textbox).send_keys(Keys.ENTER)

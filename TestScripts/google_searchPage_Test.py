@@ -11,7 +11,7 @@ class test_Google_SearchPage(testBase):
 
     def test_Google_SearchPage(self):
         driver = self.driver
-        self.driver.get(test_variables.google_search_link)
+        driver.get(test_variables.google_search_link)
         driver.set_page_load_timeout(30)
         search_page_expected_title = test_variables.google_search_page_title
         retrieve_result = ''
