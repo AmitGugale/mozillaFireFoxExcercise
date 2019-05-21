@@ -26,7 +26,7 @@ class googleSearchPage():
     def google_search_results_access(self, search_input_text, search_select_text):
         result_found = False
         try:
-            element = WebDriverWait(self.driver, 10).until(
+            WebDriverWait(self.driver, 20).until(
                 EC.presence_of_element_located(
                     (By.NAME, Locators.search_textbox))
             )
@@ -44,7 +44,7 @@ class googleSearchPage():
             self.driver.find_element_by_name(self.search_textbox).clear()
             self.driver.find_element_by_name(self.search_textbox).send_keys(search_input_text)
         try:
-            element = WebDriverWait(self.driver, 20).until(
+            WebDriverWait(self.driver, 30).until(
                 EC.presence_of_element_located(
                     (By.XPATH, Locators.search_result_set))
             )
