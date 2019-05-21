@@ -1,6 +1,8 @@
 import unittest
 from selenium import webdriver
 from TestVariables.test_Variables import test_variables
+from webdriver_manager.chrome import ChromeDriverManager
+from webdriver_manager.firefox import GeckoDriverManager
 
 # The base class which all test cases can use. This class performs driver management
 
@@ -8,8 +10,11 @@ from TestVariables.test_Variables import test_variables
 class testBase(unittest.TestCase):
 
     def setUp(self):
-        self.driver = webdriver.Chrome(test_variables.chromedriver_location)
-        self.driver.implicitly_wait(10)
+        if test_variables.browser == "chrome":
+            self.driver = webdriver.Chrome(ChromeDriverManager().install())
+        else:
+            self.driver = webdriver.Chrome(GeckoDriverManager().install())
+        self.driver.implicitly_wait(30)
         self.driver.maximize_window()
 
     def tearDown(self):

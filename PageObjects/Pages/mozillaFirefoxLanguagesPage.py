@@ -20,7 +20,7 @@ class mozilla_Firefox_Languages_Page():
 
     def get_mozilla_language_page_logo(self):
         try:
-            element = WebDriverWait(self.driver, 10).until(
+            WebDriverWait(self.driver, 10).until(
                 EC.presence_of_element_located(
                     (By.XPATH, Locators.all_languages_logo))
             )
@@ -33,7 +33,7 @@ class mozilla_Firefox_Languages_Page():
 
     def get_mozilla_language_list(self):
         try:
-            element = WebDriverWait(self.driver, 10).until(
+            WebDriverWait(self.driver, 10).until(
                 EC.presence_of_element_located(
                     (By.XPATH, Locators.language_table))
             )

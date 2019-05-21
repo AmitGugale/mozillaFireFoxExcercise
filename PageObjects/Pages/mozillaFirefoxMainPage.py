@@ -19,7 +19,7 @@ class mozilla_Firefox_Main_Page():
 
     def get_mozilla_main_page_logo(self):
         try:
-            element = WebDriverWait(self.driver, 10).until(
+            WebDriverWait(self.driver, 10).until(
                 EC.presence_of_element_located(
                     (By.XPATH, Locators.mozilla_main_logo))
             )
@@ -31,7 +31,7 @@ class mozilla_Firefox_Main_Page():
 
     def access_mozilla_all_lang_link(self):
         try:
-            element = WebDriverWait(self.driver, 10).until(
+            WebDriverWait(self.driver, 10).until(
                 EC.presence_of_element_located(
                     (By.XPATH, Locators.all_languages_link))
             )
