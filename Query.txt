@@ -1,0 +1,18 @@
+Hello,
+
+[I don't find how to send a message to you, so I am uploading my query in your repository. I apologize for the same]
+
+I am Amit.
+I am a programer but I am new to Github and also to python /selenium etc.
+I want to use Selenuim for some particular reason, so I was searching for a framework which I can start with.
+I downloaded your repository but I am not getting how to use it.
+I installed python 3.7.3 on my machine (Windows 7)
+Now I am trying to invoke from command prompt as below but I am getting error.
+It will be kind of you to help me.
+
+
+F:\Amit\GitHub\Mozilla\trunk\TestScripts>c:\python\python.exe mozilla_languagesPage_Test.py
+Traceback (most recent call last):
+  File "mozilla_languagesPage_Test.py", line 1, in <module>
+    from TestVariables.test_Variables import test_variables
+ModuleNotFoundError: No module named 'TestVariables'
